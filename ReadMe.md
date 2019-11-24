@@ -28,7 +28,7 @@ pip3 install matplotlib
 
 If imageio/pillow is already installed, make sure to upgrade the version of pillow being used before running the code.
 ```bash
-pip3 install --upgrade matplotlib
+pip3 install --upgrade pillow
 ```
 
 ## Downloading the repository
