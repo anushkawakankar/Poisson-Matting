@@ -17,6 +17,17 @@ pip3 install scipy
 pip3 install imageio
 ```
 
+## Downloading the repository
+
+Use the commands bash terminal
+```bash
+git clone {url of the page}
+```
+or
+
+Click 'Clone or Download' on the top right hand side of the repository.
+
+
 ## Usage
 Go into the directory which holds all the files. Then open the Jupyter Notebook using the command -
 
