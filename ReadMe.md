@@ -33,3 +33,5 @@ The inputs of the code are
 Running each cell in order would give the desired results - the foreground of input image pasted on a different background.
 
 While doing Local poisson matting, the user needs to manually select the region where the operations need to be performed. Looking at the image after global matting, we can see the range of the x and y coordinates where the pixels need to be altered. Hence this code can be customised depending on the input images and the needs of each user.
+
+The final matte can be further refined by using methods like boosting and highpass filtering. For these two methods, the user must select the regions where the operations are to be done, and set the x and y coordinates in the code accordingly. For this particular image, we are using these two methods. You can also use methods like cloning and channel selection as per your needs.
