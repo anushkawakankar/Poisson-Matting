@@ -4,14 +4,31 @@ Implementation of the paper - 'Poisson Matting by Jian Sun, Jiaya Jia, Chi-Keung
 
 ## Packages Required
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install numba, scipy, and imageio.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install scipy, pillow, imageio, and cv2.
 
 ```bash
 pip3 install scipy
 ```
-
+```bash
+pip3 install pillow
+```
 ```bash
 pip3 install imageio
+```
+```bash
+pip3 install opencv-python
+```
+The basic packages of numpy and matplotlib are also required.
+```bash
+pip3 install numpy
+```
+```bash
+pip3 install matplotlib
+```
+
+If imageio/pillow is already installed, make sure to upgrade the version of pillow being used before running the code.
+```bash
+pip3 install --upgrade matplotlib
 ```
 
 ## Downloading the repository
