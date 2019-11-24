@@ -7,9 +7,6 @@ Implementation of the paper - 'Poisson Matting by Jian Sun, Jiaya Jia, Chi-Keung
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install numba, scipy, and imageio.
 
 ```bash
-pip3 install numba
-```
-```bash
 pip3 install scipy
 ```
 
